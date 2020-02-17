@@ -4,6 +4,8 @@ import org.junit.jupiter.api.*;
 
 public class CalculatorTest {
 
+    int firstNum = 2;
+    int secondNum = 2;
     private Calculator myCalculator;
 
     @BeforeAll
@@ -24,21 +26,20 @@ public class CalculatorTest {
     }
 
     @Test
-    @DisplayName("testConstructor - Checking Constructor is initialized")
-    void testConstructor() {
-        assertEquals(2, myCalculator.getFirstNum());
-        assertEquals(2, myCalculator.getSecondNum());
-    }
-
-    @Test
     @DisplayName("testAdd - Testing add method")
     void testAdd() {
-        assertEquals(4, myCalculator.add(myCalculator.getFirstNum(), myCalculator.getSecondNum()));
+        assertEquals(4, myCalculator.add(firstNum, secondNum));
     }
 
     @Test
     @DisplayName("testSubtract - Testing subtract method")
     void testSubtract() {
-        assertEquals(0, myCalculator.subtract(myCalculator.getFirstNum(), myCalculator.getSecondNum()));
+        assertEquals(0, myCalculator.subtract(firstNum, secondNum));
+    }
+
+    @Test
+    @DisplayName("testMultiply - Testing multiply method")
+    void testMultiply() {
+        assertEquals(4, myCalculator.multiply(firstNum, secondNum));
     }
 }
