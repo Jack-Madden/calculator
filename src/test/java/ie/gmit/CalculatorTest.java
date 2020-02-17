@@ -42,4 +42,10 @@ public class CalculatorTest {
     void testMultiply() {
         assertEquals(4, myCalculator.multiply(firstNum, secondNum));
     }
+
+    @Test
+    @DisplayName("testDivide - testing divide method")
+    void testDivide() {
+        assertEquals(1, myCalculator.divide(firstNum, secondNum));
+    }
 }
