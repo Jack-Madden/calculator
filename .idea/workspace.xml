@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc795d1b-5661-498b-a9b0-f4d2a66ac3cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/CalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ie/gmit/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+            <state relative-caret-position="468">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#178#179#0" expanded="true" />
@@ -273,18 +271,23 @@
       <workItem from="1580721418235" duration="1969000" />
       <workItem from="1580725917295" duration="773000" />
       <workItem from="1581324916940" duration="2973000" />
-      <workItem from="1581927558450" duration="2791000" />
+      <workItem from="1581927558450" duration="3431000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CalculatorTest - 2020.02.17 at 09h 45m 24s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8506000" />
+    <option name="totallyTimeSpent" value="9146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16019417" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16019417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -293,7 +296,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,8 +364,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ie/gmit/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        <state relative-caret-position="468">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#178#179#0" expanded="true" />

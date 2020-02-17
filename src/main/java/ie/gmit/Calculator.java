@@ -30,6 +30,10 @@ public class Calculator {
         return firstNum + secondNum;
     }
 
+    public int subtract(int firstNum, int secondNum) {
+        return firstNum - secondNum;
+    }
+
     public static void main(String[] args) {
         Calculator myCalculator = new Calculator();
     }

@@ -36,4 +36,9 @@ public class CalculatorTest {
         assertEquals(4, myCalculator.add(myCalculator.getFirstNum(), myCalculator.getSecondNum()));
     }
 
+    @Test
+    @DisplayName("testSubtract - Testing subtract method")
+    void testSubtract() {
+        assertEquals(0, myCalculator.subtract(myCalculator.getFirstNum(), myCalculator.getSecondNum()));
+    }
 }
